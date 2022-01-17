@@ -1,14 +1,15 @@
 # simplex-method
 ## background
 作業研究加分程式
-![simplex method drawio](https://user-images.githubusercontent.com/64023999/149705470-283fdeaa-ca60-435b-bfa5-f5dd861703a8.png)
+
 
 本程式沒有處理化成標準式的規定
 1. 目標函數最大
 2. 約束條件等式
-3. 決策變亮非負
+3. 決策變量非負
 4. 資源限量非負
 需使用者在輸入參數時，需要注意，須符合上述四個條件。
+![simplex method drawio (3)](https://user-images.githubusercontent.com/64023999/149783184-99a6aa39-85a2-4be6-b8b6-a8d857c2310e.png)
 
 ```
 void compute();
