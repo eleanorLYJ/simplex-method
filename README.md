@@ -40,9 +40,6 @@ Return value:
   No return value
 ## install
 g++
-```
-$npm install ...????
-```
 ## usage
 ![image](https://user-images.githubusercontent.com/64023999/149707205-62521139-2909-473f-9c46-b26a6b9f398e.png)<br>
 
@@ -55,15 +52,17 @@ X1 <= 4;<br>
 and<br>
 X1 , X2 >= 0;<br>
 
-請寫成線性規劃的標準型
-row size: 3 
-col size: 6
-isMax: 1
-objective: -3 * X1 -5*X2 - 0 - 0 - 0 =0
-MATRIX: 
-1 * X1 + 0 * X2 + 1 * X3 + 0 * X4 + 0 * X5 = 4
-0 * X1 + 2 *X2 + 0 * X3 + 1 * X4 + 0 * X5 = 12
-3 * X1 + 2 *X2 + 0 * X3 + 0 * X4 + 1 * X5 = 18
+請寫成線性規劃的標準型<br>
+row size: ```3 ``` <br>
+col size: ```6``` <br>
+isMax: ```1``` <br>
+objective: ```-3 * X1 -5*X2 - 0 - 0 - 0 =0```<br>
+MATRIX:
+```
+1 * X1 + 0 * X2 + 1 * X3 + 0 * X4 + 0 * X5 = 4;
+0 * X1 + 2 *X2 + 0 * X3 + 1 * X4 + 0 * X5 = 12;
+3 * X1 + 2 *X2 + 0 * X3 + 0 * X4 + 1 * X5 = 18;
+```
 ![image](https://user-images.githubusercontent.com/64023999/149711167-1ecc92d4-a72b-499b-953d-fdd52d413173.png)
 ```
 code<test.txt
